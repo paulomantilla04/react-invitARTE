@@ -10,8 +10,19 @@ export default {
         'montserrat': ['Montserrat'],
         'ibm': ['IBM'],
         'andika': ['Andika'],
+        'inter': ['Inter'],
       }
     },
+    borderWidth: {
+      '1': '1px',
+      '2': '2px',
+      '3': '3px',
+      '4': '4px',
+      '5': '5px',
+    },
+    colors: {
+      'homeSection': 'rgba(182, 252, 250, 0.3)'
+    }
   },
   plugins: [],
 }

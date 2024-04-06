@@ -4,5 +4,10 @@
 @tailwind utilities;
 
 body {
-    background-color: #F8E9D9;
+    background-color: #1E222B;
+}
+
+::selection {
+    background-color: #D9F8F7;
+    color: #246663;
 }

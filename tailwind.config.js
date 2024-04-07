@@ -5,11 +5,22 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+
+    fontWeight: {
+      'thin': '100',
+      'extralight': '200',
+      'light': '300',
+      'normal': '400',
+      'medium': '500',
+      'semibold': '600',
+      'bold': '700',
+      'extrabold': '800',
+      'black': '900',
+    },
+
     extend: {
       fontFamily: {
-        'montserrat': ['Montserrat'],
-        'ibm': ['IBM'],
-        'andika': ['Andika'],
+        'roboto': ['Roboto Condensed'],
         'inter': ['Inter'],
       }
     },
@@ -20,9 +31,6 @@ export default {
       '4': '4px',
       '5': '5px',
     },
-    colors: {
-      'homeSection': 'rgba(182, 252, 250, 0.3)'
-    }
   },
   plugins: [],
 }

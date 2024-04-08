@@ -23,7 +23,7 @@ una invitación a tu medida.
             </AccordianItem>
             <AccordianItem value="3" trigger="¿Cuál es el precio de una invitación?">
               <p>
-              Por el momento manejamos solamente el paquete inicial que empieza desde los <span className="font-semibold">$999</span>
+              Por el momento manejamos solamente el paquete inicial que empieza desde los <span className="font-semibold">$849</span>
               </p>
             </AccordianItem>
             <AccordianItem value="4" trigger="¿Cuáles son los tiempos de entrega?">
@@ -34,7 +34,7 @@ una invitación a tu medida.
             <AccordianItem value="5" trigger="¿Cómo se confirma la asistencia?">
               <p>
               En el momento que tú hagas llegar la invitación a cualquiera de tus invitados, ellos tendrán un botón para confirmar su asistencia y a 
-ti llegará un mensaje a whatsapp con el nombre del invitado y su número de acompañantes.
+ti llegará un mensaje a Whatsapp o SMS con el nombre del invitado y su número de acompañantes. <span className="font-semibold">Ejemplo: Juan Pérez confirmó su asistencia con 3 acompañantes.</span>
               </p>
             </AccordianItem>
           </Accordian>

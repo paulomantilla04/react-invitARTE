@@ -9,7 +9,8 @@ const Catalogo = () => (
       <section className='flex flex-col items-center justify-center mt-10 gap-20 mb-32' id='catalogo'>
         <div className="flex flex-col items-center justify-center text-[#2B2B2B]">
           <h1 className='text-4xl lg:text-5xl font-inter font-black text-center'>MODELOS</h1>
-          <p className='font-inter font-light mt-3 px-8 text-xs w-72 lg:w-full lg:text-sm text-center lg:text-justify'>Explora nuestra variedad de estilos de invitaciones para encontrar la perfecta. ¡Personaliza y celebra con elegancia!</p>
+          <p className='font-inter font-semibold mt-3 px-8 text-xs w-72 lg:w-full lg:text-lg text-center'>PRÓXIMAMENTE</p>
+          <p className='font-inter font-light mt-3 px-8 text-xs w-72 lg:w-full lg:text-sm text-center lg:text-justify'>Echa un vistazo a nuestra variedad de estilos de invitaciones para encontrar la perfecta. ¡Personaliza y celebra con elegancia!</p>
         </div>
 
         <div className="flex items-center justify-center gap-10 max-[768px]:flex-col">

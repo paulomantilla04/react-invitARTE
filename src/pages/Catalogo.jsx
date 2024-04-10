@@ -1,6 +1,7 @@
 import marmol from '../assets/mock-a.svg';
 import floral from '../assets/mock-b.svg';
 import classic from '../assets/mock-c.svg';
+import classicb from '../assets/mock-d.svg';
 
 import Card from '../components/Card';
 
@@ -12,10 +13,11 @@ const Catalogo = () => (
           <p className='font-inter font-light mt-3 px-8 text-xs w-72 lg:w-full lg:text-sm text-center lg:text-justify'>Echa un vistazo a nuestra variedad de estilos de invitaciones para encontrar la perfecta. ¡Personaliza y celebra con elegancia!</p>
         </div>
 
-        <div className="flex items-center justify-center gap-10 max-[768px]:flex-col">
+        <div className="grid grid-cols-3 gap-10 max-[768px]:grid-cols-1">
             <Card image={marmol} text={"Mármol"} to={"https://invit-arte-marmol.vercel.app/paulo+mantilla"}/>
             <Card image={floral} text={"Floral"} to={"https://invit-arte-floral.vercel.app/paulo+mantilla"}/>
             <Card image={classic} text={"Clásico"} to={"https://invit-arte-clasico.vercel.app/paulo+mantilla"}/>
+            <Card image={classicb} text={"Clásico B"} to={"https://invit-arte-clasico-b.vercel.app/fernando+miranda"}/>
         </div>
       </section>
   </>

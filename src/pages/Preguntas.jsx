@@ -5,7 +5,7 @@ const Preguntas = () => (
   <>
       <section className='flex max-[768px]:flex-col flex-col items-center justify-center mt-10 gap-20 mb-32' id='faq'>
         <div className="flex flex-col items-center justify-center text-[#2B2B2B]">
-          <h1 className='text-4xl lg:text-5xl font-inter font-black text-center'>Preguntas más frecuentes</h1>
+          <h1 className='text-3xl lg:text-4xl font-inter font-black text-center'>Preguntas frecuentes</h1>
           <p className='font-inter font-regular mt-3 px-8 text-sm w-72 lg:w-full lg:text-lg text-center mb-5'>Si no encuentras lo que buscas contáctanos por <span className="font-semibold">Instagram</span></p>
 
 

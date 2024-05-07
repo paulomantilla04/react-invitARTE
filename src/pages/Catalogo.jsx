@@ -2,6 +2,7 @@ import marmol from '../assets/mock-a.svg';
 import floral from '../assets/mock-b.svg';
 import classic from '../assets/mock-c.svg';
 import classicb from '../assets/mock-d.svg';
+import xv from '../assets/mock-e.svg';
 
 import Card from '../components/Card';
 
@@ -17,7 +18,8 @@ const Catalogo = () => (
             <Card image={marmol} text={"Mármol"} to={"https://invit-arte-marmol.vercel.app/paulo+mantilla"}/>
             <Card image={floral} text={"Floral"} to={"https://invit-arte-floral.vercel.app/paulo+mantilla"}/>
             <Card image={classic} text={"Clásico"} to={"https://invit-arte-clasico.vercel.app/paulo+mantilla"}/>
-            <Card image={classicb} text={"Clásico B"} to={"https://invit-arte-clasico-b.vercel.app/fernando+miranda"}/>
+            <Card image={classicb} text={"Boda"} to={"https://invit-arte-clasico-b.vercel.app/fernando+miranda"}/>
+            <Card image={xv} text={"XV Años"} to={"https://invit-arte-serena.vercel.app/alfredo+cerqueda"}/>
         </div>
       </section>
   </>

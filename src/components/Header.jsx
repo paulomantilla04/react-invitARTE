@@ -12,11 +12,11 @@ const Header = () => (
                     <img src={Logo} className='w-32 lg:w-36'/>
                 </a>
                 <div className="flex flex-row items-center gap-10 font-roboto font-light">
-                    <a href="#catalogo" className='inline-flex font-bold hover:scale-90 hover:text-lighter transition-all duration-300'>
+                    <a href="catalogo" className='inline-flex font-bold hover:scale-90 hover:text-lighter transition-all duration-300'>
                         <span className='sm:mr-2 text-2xl lg:hidden'><BookOpenText/></span>  
                         <span className='hidden sm:block'>Catálogo</span>
                     </a>
-                    <a href="#faq" className='inline-flex font-bold hover:scale-90 hover:text-lighter transition-all duration-300'>
+                    <a href="faq" className='inline-flex font-bold hover:scale-90 hover:text-lighter transition-all duration-300'>
                         <span className='sm:mr-2 text-2xl lg:hidden'><CircleHelp/></span>  
                         <span className='hidden sm:block'>FAQ</span>
                     </a>

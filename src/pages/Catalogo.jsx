@@ -15,9 +15,9 @@ const Catalogo = () => (
         </div>
 
         <div className="grid grid-cols-3 gap-10 max-[768px]:grid-cols-1">
-            <Card image={marmol} text={"Mármol"} to={"https://invit-arte-marmol.vercel.app/paulo+mantilla"}/>
-            <Card image={floral} text={"Floral"} to={"https://invit-arte-floral.vercel.app/paulo+mantilla"}/>
-            <Card image={classic} text={"Clásico"} to={"https://invit-arte-clasico.vercel.app/paulo+mantilla"}/>
+            <Card disabled={false} image={marmol} text={"Mármol"} to={"https://invit-arte-marmol.vercel.app/paulo+mantilla"}/>
+            <Card disabled={true} image={floral} text={"Floral"} to={"https://invit-arte-floral.vercel.app/paulo+mantilla"}/>
+            <Card disabled={true} image={classic} text={"Clásico"} to={"https://invit-arte-clasico.vercel.app/paulo+mantilla"}/>
             <Card image={classicb} text={"Boda"} to={"https://invit-arte-clasico-b.vercel.app/fernando+miranda"}/>
             <Card image={xv} text={"XV Años"} to={"https://invit-arte-serena.vercel.app/alfredo+cerqueda"}/>
         </div>
